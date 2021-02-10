@@ -354,18 +354,7 @@ width: 100%;
     
 }
 
-/*for phones*/
-@media only screen and (max-width: 600px) {
-    .socialgrid{
-    display:grid;
-    background-color: var(--blue);
-    width:100%;
-    grid-template-columns: repeat(auto-fit, minmax(10em,24em ));
-    align-items: center;
-    column-gap: 2em;
-    
-    
-}
+
     
     
 }
@@ -440,31 +429,5 @@ input[type=submit] {
     
 }
 
-/*for phones*/
-@media only screen and (max-width: 600px) {
-  .paymentdiv{
-    display:grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    align-items: center;
-    height: 3em;
-}
 
-.paymentdiv img{
-    padding-left: 3em;
-    filter: grayscale(1);
-    filter: contrast(0);
-}
-
-.paymentdiv a{
-    padding-right: 3em;
-    cursor: pointer;
-    
-}  
-}
-
-@media only screen and (min-width: 600px) {
-    .offers{
-        width: 33%;
-    }
-}
 
