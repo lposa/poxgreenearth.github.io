@@ -222,7 +222,7 @@ label {
   
 }
 
-@media only screen and (max-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 375px){
     .tabgrid{
     display:grid;
     grid-template-columns: repeat(auto-fit, minmax(2em,3em ));

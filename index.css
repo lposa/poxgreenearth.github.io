@@ -50,7 +50,29 @@ body {
    
 
 }
+@media screen and (device-width:: 360px) {
+    .container{
+        display:inline-block;
+        width:90%;
+        font-size: 5vw;
+    }
+    
+    
+   
 
+}
+
+@media screen and (device-width:: 375px) {
+    .container{
+        display:inline-block;
+        width:90%;
+        font-size: 5vw;
+    }
+    
+    
+   
+
+}
 
 @media screen and (max-width: 480px) {
     .container{
@@ -311,7 +333,7 @@ body {
     
 }
 
-@media screen and (device-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 375px)  {
     #deals{
         display:inline-block;
         top: 38%;
@@ -835,7 +857,7 @@ input[type=submit] {
     
     
 }   
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 375px) {
     
     .socialgrid{
     display:grid;
@@ -874,7 +896,7 @@ input[type=submit] {
    
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 376px) and (max-width:480px) {
     
     .socialgrid{
     display:grid;
@@ -961,7 +983,7 @@ input[type=submit] {
 
 
 
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 375px) {
     
     .paymentdiv{
     display:grid;
