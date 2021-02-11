@@ -218,6 +218,78 @@ body {
     #carousel a{
         top: 35%;
     }
+    
+    #deals h1{
+    color: white; 
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    margin:auto;
+}
+  #deals button{
+    background-color: var(--blue);
+    border:none;
+    padding: 5px 20px;
+    font-size: 15px;
+    color:white;
+    font-family: 'Open Sans' , sans-serif;
+    font-weight: bold;
+    position: absolute;
+    top: 180px;
+}  
+    #deals p{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    position: absolute;
+    top:83%;
+    left: 10px;
+}
+    
+    
+}
+
+
+@media screen and (max-width: 640px) {
+    #deals{
+        display:inline-block;
+        top: 10%;
+        float:left;
+        position: absolute;
+        left: 10%;
+        
+    }
+    
+    #carousel a{
+        top: 35%;
+    }
+    
+    #deals h1{
+    color: white; 
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    margin:auto;
+}
+  #deals button{
+    background-color: var(--blue);
+    border:none;
+    padding: 5px 20px;
+    font-size: 15px;
+    color:white;
+    font-family: 'Open Sans' , sans-serif;
+    font-weight: bold;
+    position: absolute;
+    top: 180px;
+}  
+    #deals p{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    position: absolute;
+    top:83%;
+    left: 10px;
+}
+    
+    
 }
 
 #feats{
@@ -469,6 +541,23 @@ input[type=submit] {
 
 }
 
+@media screen and (max-width: 640px) {
+    
+    .socialgrid{
+    display:grid;
+    background-color: var(--blue);
+    width:100%;
+    grid-template-columns: 50%;
+    grid-template-rows: 60px 60px 60px;
+    justify-content: center;
+    grid-row-gap: 1em;    
+    justify-items: start;
+    
+    
+}   
+
+
+}
 
 
 
