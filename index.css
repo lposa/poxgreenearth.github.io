@@ -269,7 +269,7 @@ body {
 }
 
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 600px) {
     #deals{
         display:inline-block;
         top: 10%;
@@ -417,7 +417,7 @@ body {
     
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 480px) {
     #deals{
         display:inline-block;
         top: 19%;
@@ -876,7 +876,7 @@ input[type=submit] {
    
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 480px) {
     
     .socialgrid{
     display:grid;
@@ -963,7 +963,7 @@ input[type=submit] {
 
 
 
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 320px) {
     
     .paymentdiv{
     display:grid;
@@ -987,7 +987,7 @@ input[type=submit] {
     
     }
 
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 480px) {
     
     .paymentdiv{
     display:grid;
@@ -1012,7 +1012,7 @@ input[type=submit] {
     }
     
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
     
     .paymentdiv{
     display:grid;

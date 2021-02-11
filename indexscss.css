@@ -146,7 +146,7 @@ label {
 
 
 
-@media only screen and (max-width: 1200px){
+@media only screen and (min-width: 1200px){
 .tabgrid{
     display:grid;
     grid-template-columns: repeat(auto-fit, minmax(10em,11em ));
@@ -161,7 +161,7 @@ label {
 
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 768px) {
     .tabgrid{
     display:grid;
     grid-template-columns: repeat(auto-fit, minmax(5em,6em ));
@@ -222,7 +222,7 @@ label {
   
 }
 
-@media only screen and (max-width: 360px) {
+@media only screen and (max-width: 320px) {
     .tabgrid{
     display:grid;
     grid-template-columns: repeat(auto-fit, minmax(2em,3em ));
@@ -248,7 +248,7 @@ label {
 }
     
     #girl{
-        width: 100px;
+        width: 80px;
         padding-right: 50px;
     }
     
@@ -263,7 +263,7 @@ label {
     .tabgrid{
     display:grid;
     grid-template-columns: repeat(auto-fit, minmax(2em,3em ));
-    column-gap: 6em;
+    column-gap: 4em;
     justify-content: center;
     align-content: center;
     align-items: center;
@@ -285,7 +285,7 @@ label {
 }
     
     #girl{
-        width: 120px;
+        width: 100px;
         padding-right: 50px;
     }
     
