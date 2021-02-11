@@ -943,7 +943,8 @@ input[type=submit] {
     justify-items: start;
     
     
-}   
+} 
+}
 @media screen and (min-width: 320px) and (max-width: 375px) {
     
     .socialgrid{
@@ -1044,29 +1045,6 @@ input[type=submit] {
     
 }
     
-@media screen and (max-width: 600px) {
-    
-    .paymentdiv{
-    display:grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    align-items: center;
-    height: 2em;
-}
-    
-    .paymentdiv img{
-    padding-left: 1em;
-    filter: grayscale(1);
-    filter: contrast(0);
-    width: 20px;
-}
-    
-    .paymentdiv a{
-    padding-right: 1em;
-    cursor: pointer;
-    font-size: 15px
-}
-    
-    }
 
 
 
@@ -1094,7 +1072,7 @@ input[type=submit] {
     
     }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 376px) and (max-width: 480px) {
     
     .paymentdiv{
     display:grid;
@@ -1119,7 +1097,7 @@ input[type=submit] {
     }
     
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 481px) and (max-width: 768px) {
     
     .paymentdiv{
     display:grid;
@@ -1138,7 +1116,7 @@ input[type=submit] {
     .paymentdiv a{
     padding-right: 2em;
     cursor: pointer;
-    font-size: 10px
+    font-size: 10px;
 }
     
     }
