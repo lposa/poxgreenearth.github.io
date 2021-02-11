@@ -8,8 +8,14 @@
 }
 /**/
 
+html{
+    box-sizing: border-box;
+    height: 100%;
+    display:block;
+}
 
 body {
+
   margin: 0;
   padding: 0;
 }
@@ -32,22 +38,22 @@ body {
 }
 
 
-@media screen and (max-width: 1024px) {
-.container {
-width: 33.33%;
+/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 600px) {
+    .container{
+        display:inline-block;
+        width:100%;
+    }
+   
+ /*larger phones*/      
 }
-}
-
 @media screen and (max-width: 768px) {
-.container {
-width: 50%;
-}
-}
-
-@media screen and (max-width: 414px) {
-.container {
-width: 100%;
-}
+    .container{
+        display:inline-block;
+        width:100%;
+    }
+   
+       
 }
 
 
@@ -198,6 +204,22 @@ width: 100%;
     cursor: pointer;
 }
 
+
+@media screen and (max-width: 768px) {
+    #deals{
+        display:inline-block;
+        top: 10%;
+        float:left;
+        position: absolute;
+        left: 10%;
+        
+    }
+    
+    #carousel a{
+        top: 35%;
+    }
+}
+
 #feats{
     margin: 0 auto;
     padding-top: 20px;
@@ -318,6 +340,31 @@ width: 100%;
 }
 
 
+@media screen and (max-width: 768px) {
+    #grid2{
+        display:grid;
+        grid-template-columns: 192px;
+        grid-row-gap: 10px;
+        width: 100%;
+        height: 100%;
+        
+    }
+ 
+    #offershead{
+    
+        
+        
+    }
+    
+   
+       
+}
+
+
+
+
+
+
 /*more footer*/
 
 #more{
@@ -357,10 +404,6 @@ width: 100%;
 
     
     
-
-
-
-
 
 input[type=text], input[type=submit] { 
   padding: 12px;
@@ -406,6 +449,27 @@ input[type=submit] {
     align-items: center;
     
 }
+
+
+@media screen and (max-width: 768px) {
+    
+    .socialgrid{
+    display:grid;
+    background-color: var(--blue);
+    width:100%;
+    grid-template-columns: 40%;
+    grid-template-rows: 60px 60px 60px;
+    justify-content: center;
+    grid-row-gap: 1em;    
+    justify-items: start;
+    
+    
+}   
+
+
+}
+
+
 
 
 /*payment section*/
