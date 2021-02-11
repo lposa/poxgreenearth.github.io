@@ -189,7 +189,7 @@ label {
     .tabgrid{
     display:grid;
     grid-template-columns: repeat(auto-fit, minmax(4em,5em ));
-    column-gap: 5em;
+    column-gap: 4em;
     justify-content: center;
     align-content: center;
     align-items: center;
@@ -210,6 +210,44 @@ label {
   height: 50em;
 }
 }
+
+@media only screen and (max-width: 360px) {
+    .tabgrid{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(2em,3em ));
+    column-gap: 3em;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    justify-items: center;
+    font-size: 10px;
+
+    }
+    
+    #lorem{
+        text-align: center;
+    padding: 0 0 50px 0;
+    margin-bottom: 60px;
+    color: white;
+    }
+    
+   #headline {
+  background: #021f59;
+  height: 50em;
+}
+    
+    #girl{
+        width: 100px;
+        padding-right: 50px;
+    }
+    
+    #headline h1{
+        font-size: 40px;
+        padding-right: 20px;
+    }
+  
+}
+
 
 
 
