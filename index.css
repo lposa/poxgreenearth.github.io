@@ -38,16 +38,29 @@ body {
 }
 
 
-/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
-@media screen and (max-width: 360px) {
+
+@media screen and (max-width: 320px) {
     .container{
         display:inline-block;
-        width:100%;
-        font-size: 15px;
+        width:90%;
+        font-size: 5vw;
     }
     
     
+   
 
+}
+
+
+@media screen and (max-width: 480px) {
+    .container{
+        display:inline-block;
+        width:85%;
+        font-size: 3vw;
+    }
+    
+    
+   
 
 }
    
@@ -299,49 +312,47 @@ body {
     
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 320px) {
     #deals{
         display:inline-block;
-        top: 26%;
+        top: 38%;
         float:left;
         position: absolute;
         left: 10%;
         
     }
     
-    #carousel a{
-        top: 35%;
-    }
+   
     
     #deals h1{
     color: white; 
     font-family: 'Open Sans', sans-serif;
-    font-size: 15px;
+    font-size: 4vw;
     margin:auto;
 }
   #deals button{
     background-color: var(--blue);
     border:none;
     padding: 3px 5px;
-    font-size: 10px;
+    font-size: 3vw;
     color:white;
     font-family: 'Open Sans' , sans-serif;
     font-weight: bold;
     position: absolute;
-    top: 143px;
-    left: 10px;
+    top: 64%;
+    left: 10%;
 }  
     #deals p{
     color: white;
     font-family: 'Open Sans', sans-serif;
     font-size: 10px;
     position: absolute;
-    top:55%;
+    top:50%;
     left: 10px;
 }
     
     #carousel a{
-        top:43%;
+        top:55%;
         
     }
     
@@ -385,6 +396,8 @@ body {
     border-radius: 100%;  
 
 }
+    
+
 
 .next:before{
     position: absolute;
@@ -403,6 +416,112 @@ body {
     
     
 }
+
+@media screen and (max-width: 480px) {
+    #deals{
+        display:inline-block;
+        top: 19%;
+        float:left;
+        position: absolute;
+        left: 10%;
+        
+    }
+    
+   
+    
+    #deals h1{
+    color: white; 
+    font-family: 'Open Sans', sans-serif;
+    font-size: 4vw;
+    margin:auto;
+}
+  #deals button{
+    background-color: var(--blue);
+    border:none;
+    padding: 3px 5px;
+    font-size: 3vw;
+    color:white;
+    font-family: 'Open Sans' , sans-serif;
+    font-weight: bold;
+    position: absolute;
+    top: %;
+    left: 10%;
+}  
+    #deals p{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10px;
+    position: absolute;
+    top:62%;
+    left: 15px;
+}
+    
+    #carousel a{
+        top:45%;
+        
+    }
+    
+    .prev{
+    position: absolute; 
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    margin: 0 auto;
+    right: 50px;
+    top:40%;
+    
+    border: 0.5px solid #bac5cd;
+    border-radius: 100%;  
+}
+
+.prev:before{
+    position: absolute;
+    content: '';
+    width: 6px;
+    height: 6px;
+    margin: 0 auto;
+    left: 2px;
+    right: 0;
+    top: 10px;
+    border-left: 2px solid white;
+    border-bottom: 2px solid white;
+    transform: rotate(45deg);
+}
+
+
+.next{
+    position: absolute; 
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    margin: 0 auto;
+    right: 10px;
+    top:40%;
+    border: 0.5px solid #bac5cd;
+    border-radius: 100%;  
+
+}
+    
+
+
+.next:before{
+    position: absolute;
+    content: '';
+    width: 6px;
+    height: 6px;
+    margin: 0 auto;
+    left: 0px;
+    right: 2px;
+    top: 10px;
+    border-left: 2px solid white;
+    border-bottom: 2px solid white;
+    transform: rotate(225deg);
+}
+    
+    
+    
+}
+
 
 #feats{
     margin: 0 auto;
@@ -535,8 +654,13 @@ body {
     }
  
     #offershead{
-    
-        
+     color: white;
+    font-family: 'Opens Sans' , 'sans-serif';
+    font-size:20px;
+    padding-top: 1em;
+    padding-left: 1em;
+    margin-bottom: 0; 
+     
         
     }
     
@@ -545,9 +669,55 @@ body {
 }
 
 
+@media screen and (max-width: 320px) {
+    #grid2{
+        display:grid;
+        grid-template-columns: 192px;
+        grid-row-gap: 10px;
+        width: 100%;
+        height: 100%;
+        
+    }
+ 
+    #offershead{
+    color: white;
+    font-family: 'Opens Sans' , 'sans-serif';
+    font-size:20px;
+    padding-top: 1em;
+    padding-left: 1em;
+    margin-bottom: 0; 
+        
+        
+    }
+    
+   
+       
+}
 
-
-
+@media screen and (max-width: 480px) {
+    #grid2{
+        display:grid;
+        grid-template-columns: 192px;
+        grid-row-gap: 10px;
+        width: 100%;
+        height: 100%;
+        
+    }
+ 
+    #offershead{
+    color: white;
+    font-family: 'Opens Sans' , 'sans-serif';
+    font-size:20px;
+    padding-top: 1em;
+    padding-left: 7em;
+    margin-bottom: 0; 
+        
+        
+    }
+    
+   
+       
+}
 
 /*more footer*/
 
@@ -653,7 +823,7 @@ input[type=submit] {
 
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 600px) {
     
     .socialgrid{
     display:grid;
@@ -667,7 +837,7 @@ input[type=submit] {
     
     
 }   
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 320px) {
     
     .socialgrid{
     display:grid;
@@ -706,6 +876,44 @@ input[type=submit] {
    
 }
 
+@media screen and (max-width: 480px) {
+    
+    .socialgrid{
+    display:grid;
+    background-color: var(--blue);
+    width:100%;
+    grid-template-columns: 60%;
+    grid-template-rows: 50px 50px 50px;
+    justify-content: center;
+    grid-row-gap: 1em;      
+    
+    
+}
+.socialcircle{
+    border: 1px solid white;
+    border-radius: 100%;
+    float: right;
+    margin: 10px;
+    width: 40px;
+    height:40px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+    
+    .socialgrid p{
+    color:ghostwhite;
+    font-family: sans-serif;
+    font-size: 1em;
+    display:inline-block;
+}
+    .socialcont img{
+        width: 15px;
+    }
+    
+   
+}
 
 
 /*payment section*/
@@ -714,7 +922,7 @@ input[type=submit] {
     display:grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
     align-items: center;
-    height: 3em;
+    height: 2em;
 }
 
 .paymentdiv img{
@@ -728,9 +936,34 @@ input[type=submit] {
     cursor: pointer;
     
 }
+    
+@media screen and (max-width: 600px) {
+    
+    .paymentdiv{
+    display:grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    align-items: center;
+    height: 2em;
+}
+    
+    .paymentdiv img{
+    padding-left: 1em;
+    filter: grayscale(1);
+    filter: contrast(0);
+    width: 20px;
+}
+    
+    .paymentdiv a{
+    padding-right: 1em;
+    cursor: pointer;
+    font-size: 15px
+}
+    
+    }
 
 
-@media screen and (max-width: 360px) {
+
+@media screen and (max-width: 320px) {
     
     .paymentdiv{
     display:grid;
@@ -747,10 +980,58 @@ input[type=submit] {
 }
     
     .paymentdiv a{
-    padding-right: 1em;
+    padding-right: 2em;
     cursor: pointer;
-    font-size: 12px;
+    font-size: 10px
 }
     
     }
 
+@media screen and (max-width: 480px) {
+    
+    .paymentdiv{
+    display:grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    align-items: center;
+    height: 2em;
+}
+    
+    .paymentdiv img{
+    padding-left: 1em;
+    filter: grayscale(1);
+    filter: contrast(0);
+    width: 15px;
+}
+    
+    .paymentdiv a{
+    padding-right: 2em;
+    cursor: pointer;
+    font-size: 10px
+}
+    
+    }
+    
+
+@media screen and (max-width: 768px) {
+    
+    .paymentdiv{
+    display:grid;
+    grid-template-columns: repeat(2 minmax(0, 1fr));
+    align-items: center;
+    height: 2em;
+}
+    
+    .paymentdiv img{
+    padding-left: 1em;
+    filter: grayscale(1);
+    filter: contrast(0);
+    width: 15px;
+}
+    
+    .paymentdiv a{
+    padding-right: 2em;
+    cursor: pointer;
+    font-size: 10px
+}
+    
+    }

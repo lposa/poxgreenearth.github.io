@@ -185,7 +185,7 @@ label {
 }
 }
 
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 600px) {
     .tabgrid{
     display:grid;
     grid-template-columns: repeat(auto-fit, minmax(4em,5em ));
@@ -209,6 +209,17 @@ label {
   background: #021f59;
   height: 50em;
 }
+    
+     #girl{
+        width: 130px;
+        padding-right: 50px;
+    }
+    
+    #headline h1{
+        font-size: 40px;
+        padding-right: 20px;
+    }
+  
 }
 
 @media only screen and (max-width: 360px) {
@@ -248,6 +259,42 @@ label {
   
 }
 
+@media only screen and (max-width: 480px) {
+    .tabgrid{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(2em,3em ));
+    column-gap: 6em;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    justify-items: center;
+    font-size: 2vw;
+
+    }
+    
+    #lorem{
+        text-align: center;
+    padding: 0 0 40px 0;
+    margin-bottom: 60px;
+    color: white;
+    }
+    
+   #headline {
+  background: #021f59;
+  height: 50em;
+}
+    
+    #girl{
+        width: 120px;
+        padding-right: 50px;
+    }
+    
+    #headline h1{
+        font-size: 40px;
+        padding-right: 20px;
+    }
+  
+}
 
 
 
