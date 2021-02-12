@@ -89,7 +89,7 @@ body {
 
 
 /*mobile devices*/
-@media screen and (min-width: 320px) and (max-width: 375px) and (min-height: 640px) {
+@media screen and (min-width: 320px) and (max-width: 480px) and (min-height: 640px) {
     .navgrid{
         display:grid;
         grid-template-columns: repeat(6,53.3px);
@@ -151,28 +151,7 @@ body {
     
     
 
-@media screen and (max-width: 480px) {
-    .container{
-        display:inline-block;
-        width:85%;
-        font-size: 3vw;
-    }
-    
-    
-   
 
-}
-   
- /*larger phones*/      
-}
-@media screen and (max-width: 768px) {
-    .container{
-        display:inline-block;
-        max-width:100%;
-    }
-   
-       
-}
 
 /*carousel and elements*/
 
@@ -474,10 +453,10 @@ body {
 
 
 
-@media screen and (min-device-width:376px) and (max-device-width: 480px) and (max-device-height: 896px) {
+@media screen and (min-device-width:376px) and (max-device-width: 480px) and (min-device-height: 640px) {
     #deals{
         display:inline-block;
-        top: 30%;
+        top: 0%;
         float:left;
         position: absolute;
         left: 10%;
@@ -500,7 +479,7 @@ body {
     font-family: 'Open Sans' , sans-serif;
     font-weight: bold;
     position: absolute;
-    top: 69%;
+    top: 70%;
     left: 10%;
 }  
     #deals p{
@@ -524,7 +503,7 @@ body {
     cursor: pointer;
     margin: 0 auto;
     right: 50px;
-    top:40%;
+    top: 10%;
     
     border: 0.5px solid #bac5cd;
     border-radius: 100%;  
@@ -578,112 +557,7 @@ body {
     
 }
 
-/*iPhoneX*/
-@media screen and (min-device-width:375px) and (max-device-height: 812px) {
-    #deals{
-        display:inline-block;
-        top: 33%;
-        float:left;
-        position: absolute;
-        left: 10%;
-        
-    }
-    
-   
-    
-    #deals h1{
-    color: white; 
-    font-family: 'Open Sans', sans-serif;
-    font-size: 4vw;
-    margin:auto;
-}
-  #deals button{
-    background-color: var(--blue);
-    border:none;
-    padding: 3px 5px;
-    font-size: 3vw;
-    color:white;
-    font-family: 'Open Sans' , sans-serif;
-    font-weight: bold;
-    position: absolute;
-    top: 69%;
-    left: 10%;
-}  
-    #deals p{
-    color: white;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 10px;
-    position: absolute;
-    top:55%;
-    left: 15px;
-}
-    
-    #carousel a{
-        top:50%;
-        
-    }
-    
-    .prev{
-    position: absolute; 
-    width: 25px;
-    height: 25px;
-    cursor: pointer;
-    margin: 0 auto;
-    right: 50px;
-    top:40%;
-    
-    border: 0.5px solid #bac5cd;
-    border-radius: 100%;  
-}
-
-.prev:before{
-    position: absolute;
-    content: '';
-    width: 6px;
-    height: 6px;
-    margin: 0 auto;
-    left: 2px;
-    right: 0;
-    top: 10px;
-    border-left: 2px solid white;
-    border-bottom: 2px solid white;
-    transform: rotate(45deg);
-}
-
-
-.next{
-    position: absolute; 
-    width: 25px;
-    height: 25px;
-    cursor: pointer;
-    margin: 0 auto;
-    right: 10px;
-    top:40%;
-    border: 0.5px solid #bac5cd;
-    border-radius: 100%;  
-
-}
-    
-
-
-.next:before{
-    position: absolute;
-    content: '';
-    width: 6px;
-    height: 6px;
-    margin: 0 auto;
-    left: 0px;
-    right: 2px;
-    top: 10px;
-    border-left: 2px solid white;
-    border-bottom: 2px solid white;
-    transform: rotate(225deg);
-}
-    
-    
-    
-}
-
+/
 
 #feats{
     margin: 0 auto;
