@@ -47,7 +47,7 @@ body {
 }
 
 .topnav{
-    padding-left: 120px;
+    padding-left: 0px;
 
 }
 
@@ -92,6 +92,10 @@ body {
         justify-items: center;
         align-items: center;
         
+    }
+    
+      div.topnav{
+        padding: 0;
     }
     
     
@@ -143,7 +147,7 @@ body {
 }
 
     
- @media screen and (min-width: 376px) and (max-width: 480px) and (min-height: 873px) {
+ @media screen and (min-width: 376px) and (max-width: 480px) and (min-height: 641px) {
     .navgrid{
         display:grid;
         grid-template-columns: repeat(6,65.5px);
@@ -154,6 +158,10 @@ body {
         align-items: center;
         padding: 0;
         
+    }
+     
+       div.topnav{
+        padding: 0;
     }
     
     
