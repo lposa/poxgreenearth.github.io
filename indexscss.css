@@ -4,7 +4,7 @@
 }
 
 #headline h1 {
-  font-size: 50px;
+  font-size: 40px;
   font-weight: bold;
   color: #38bdff;
   text-align: center;
@@ -161,7 +161,7 @@ label {
 
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) and (min-height:900px) {
     .tabgrid{
     display:grid;
     grid-template-columns: repeat(auto-fit, minmax(5em,6em ));
@@ -185,53 +185,17 @@ label {
 }
 }
 
-@media only screen and (max-width: 600px) {
-    .tabgrid{
-    display:grid;
-    grid-template-columns: repeat(auto-fit, minmax(4em,5em ));
-    column-gap: 4em;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-    justify-items: center;
-    font-size: 15px;
-
-    }
-    
-    #lorem{
-        text-align: center;
-    padding: 0 0 80px 0;
-    margin-bottom: 80px;
-    color: white;
-    }
-    
-   #headline {
-  background: #021f59;
-  height: 50em;
-}
-    
-     #girl{
-        width: 130px;
-        padding-right: 50px;
-    }
-    
-    #headline h1{
-        font-size: 40px;
-        padding-right: 20px;
-    }
-  
-}
 
 @media screen and (min-width: 320px) and (max-width: 375px) and (min-height: 640px){
     .tabgrid{
     display:grid;
-    grid-template-columns: repeat(auto-fit, minmax(3em,4em ));
+    grid-template-columns: repeat(3,45px);
     column-gap: 3em;
     justify-content: center;
     align-content: center;
     align-items: center;
     justify-items: center;
-    font-size: 10px;
+    font-size: 11px;
 
     }
     
@@ -244,7 +208,7 @@ label {
     
    #headline {
   background: #021f59;
-  height: 50em;
+  height: 40em;
 }
     
     #girl{
@@ -254,21 +218,24 @@ label {
     
     #headline h1{
         font-size: 40px;
-        padding-right: 20px;
+        padding: 0;
+        margin:0;
+        max-width: 100%;
+        text-align: center;
     }
   
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (min-width: 376px) and (max-width: 480px) and (min-height: 640px) {
     .tabgrid{
     display:grid;
-    grid-template-columns: repeat(auto-fit, minmax(2em,3em ));
-    column-gap: 4em;
+    grid-template-columns: repeat(3,20px);
+    column-gap: 5em;
     justify-content: center;
     align-content: center;
     align-items: center;
     justify-items: center;
-    font-size: 2vw;
+    font-size: 3vw;
 
     }
     
@@ -281,7 +248,7 @@ label {
     
    #headline {
   background: #021f59;
-  height: 50em;
+  height: 40em;
 }
     
     #girl{
@@ -291,7 +258,10 @@ label {
     
     #headline h1{
         font-size: 40px;
-        padding-right: 20px;
+        margin:0;
+        max-width: 100%;
+        text-align: center;
+        padding: 0;
     }
   
 }
