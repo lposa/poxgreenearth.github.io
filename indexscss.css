@@ -222,10 +222,10 @@ label {
   
 }
 
-@media screen and (min-width: 320px) and (max-width: 375px){
+@media screen and (min-width: 320px) and (max-width: 375px) and (min-height: 640px){
     .tabgrid{
     display:grid;
-    grid-template-columns: repeat(auto-fit, minmax(2em,3em ));
+    grid-template-columns: repeat(auto-fit, minmax(3em,4em ));
     column-gap: 3em;
     justify-content: center;
     align-content: center;
